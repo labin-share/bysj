@@ -1,0 +1,20 @@
+<!-- 欢迎界面，由该页面跳转至其他页面 -->
+<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/personal/welcomePage.css"/>
+    </head>
+    <body class="um-vp welcomePage" ontouchstart>
+        <script>
+            var test = function() {
+                appcan.window.open("loginOrRigster", "loginOrRegister.html", 0, 0, 0, 0, 0);
+            }
+            window.setTimeout(test, 3000);
+        </script>
+        <script src="../js/appcan/appcan.js"></script>
+        <script src="../js/appcan/appcan.control.js"></script>
+    </body>
+</html>
